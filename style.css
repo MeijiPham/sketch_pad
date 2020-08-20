@@ -1,0 +1,94 @@
+:root {
+  --grid-cols: 16;
+  --grid-rows: 16;
+}
+
+body {
+  background: url(images/946f2a84628ccc271309e02c8a5c1cc4.jpg);
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  position: absolute;
+  bottom: 500px;
+  left: 586px;
+}
+
+
+#reset {
+  position: relative;
+  bottom: 413px;
+  left: 240px;
+}
+
+.button-design {
+  font-family: "Merriweather", serif;
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 5px solid rgba(19, 230, 230, 0.808);
+  font-weight: 900;
+  color: rgb(63, 62, 62);
+}
+
+.button-design:hover {
+  box-shadow: 0 0 8px rgba(19, 230, 230, 0.808);
+  text-shadow: 0 0 8px rgb(63, 62, 62);
+}
+
+#size-input {
+  position: absolute;
+  bottom: 293px;
+  left: 1000px;
+}
+
+#width-label {
+  position: relative;
+  top: 28px;
+  right: 4.8px;
+  font-weight: 900;
+}
+
+#height-label {
+  position: relative;
+  top: 50px;
+  right: 4px;
+  font-weight: 900;
+}
+
+#width-box {
+  position: relative;
+  left: 5px;
+}
+
+#change-size {
+  position: relative;
+  right: 5px;
+}
+
+.user-input {
+  background: hsla(263, 93%, 35%, 0.479); 
+}
+
+.container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  padding: 35px;
+  margin: auto;
+  background: rgba(19, 230, 230, 0.808);
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+
+
+.cell {
+  background-color: white; 
+  box-shadow: 0 0 0 1px hsl(0, 0%, 80%);
+}
+
+
+.fill {
+  background: black;
+}
